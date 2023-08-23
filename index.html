@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			#MAINBOX{
+	/* border:solid black; */
+	height: 360px;
+	width: 367px;
+	margin-top: 80px;
+	margin-left:230px ;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	align-self: flex-start;
+}
+
+.box {
+background-color: lightgrey;
+width: 300px;
+border: 7px solid green;
+padding: 50px;
+margin: 20px;
+border-right-style: none;
+border-top-style: none;
+}
+
+#MINI1{height: 120px;width: 120px; font-size: 80px;  border: 3px solid black;border-left-style: none;border-top-style: none;}
+#MINI2{height: 120px;width: 120px;font-size: 80px;border: 2px solid black;border-top-style: none;}
+#MINI3{height: 120px;width: 120px; font-size: 80px;border: 3px solid black;border-right-style: none;border-top-style: none;}
+#MINI4{height: 120px;width: 120px;font-size: 80px;border: 3px solid black;border-left-style: none;border-top-style: none;}
+#MINI5{height: 120px;width: 120px;font-size: 80px;border: 2px solid black;}
+#MINI6{height: 120px;width: 120px;font-size: 80px;border: 3px solid black;border-right-style: none;border-top-style: none;}
+#MINI7{height: 120px;width: 120px;font-size: 80px;border: 4px solid black;border-left-style: none;border-top-style: none;}
+#MINI8{height: 120px;width: 120px;font-size: 80px;border: 1px solid black;border-right-style: none;border-bottom-style: none;}
+#MINI9{height: 120px;width: 120px;font-size: 80px;border: 4px solid black;border-right-style: none;border-top-style: none;}
+ 
+		</style>
+		
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	
+		<title>Game</title>
+</head>
+<body>
+		<div>Not a Responsive site</div>
+		<button onclick="reset()">Reset</button>
+		<div>
+			<div id="P1"></div>
+			<div id="P2"></div>
+		</div>
+	
+	<div id="MAINBOX">
+	
+	 <div id ="MINI1" onclick="fill(this)"></div>
+		<div id ="MINI2" onclick="fill(this)"></div>
+		<div id ="MINI3" onclick="fill(this)"></div>
+		<div id ="MINI4" onclick="fill(this)"></div>
+		<div id ="MINI5" onclick="fill(this)"></div>
+		<div id ="MINI6" onclick="fill(this)"></div>
+		<div id ="MINI7" onclick="fill(this)"></div>
+		<div id ="MINI8" onclick="fill(this)"></div>
+		<div id ="MINI9" onclick="fill(this)"></div>
+		
+	</div>
+	
+
+<script src="Tic.js"></script>
+</body>
+</html>
